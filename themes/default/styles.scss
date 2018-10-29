@@ -83,9 +83,15 @@ a:hover {
 
 .app-icon {
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 0;
   border-radius: 15px;
   width: 92px;
+}
+
+.marketing-header {
+  font-size: 28px;
+  margin-bottom: 18px;
+  line-height: 32px;
 }
 
 .marketing-desc {
@@ -134,10 +140,10 @@ a:hover {
 }
 
 //
-// Fonts
+// Margin
 //
 .mt-4 {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 
@@ -182,6 +188,24 @@ a:hover {
 {% endif %}
 
 //
+// Logo
+//
+.center {
+  position: relative;
+  top: 50%;
+}
+
+.btnText {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10px;
+  span {
+    display: block;
+    margin-top: -12px;
+  }
+}
+
+//
 // Device
 //
 
@@ -202,8 +226,16 @@ a:hover {
     display: inline;
   }
 
+  .marketing-header{
+    font-size: 30px;
+  }
+
   .marketing-desc {
     text-align: left;
+  }
+
+  .mt-4 {
+    margin-top: 80px;
   }
 }
 

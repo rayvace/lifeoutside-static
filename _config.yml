@@ -8,7 +8,8 @@
 # General App Info
 #
 app:
-  name: Life Outside # REQUIRED - Enter your app name
+  name1: Life
+  name2: Outside # REQUIRED - Enter your app name
   ios_id: 912209541 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: # Optional - Enter Android app id like: com.example.app
 
@@ -42,7 +43,7 @@ app:
 #
 # Marketing
 #
-marketing_header: A daily drip of city events # Optional
+marketing_header: A daily drip of arts & entertainment in your city # Optional
 marketing_desc: Every day, we'll feature the top 3 upcoming events in your city.
 
 #
@@ -81,7 +82,7 @@ device: iphone-x # REQUIRED
 # Theme Settings
 #
 background_color: "#989898" # Optional
-background_image: /images/backgrounds/58-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
+background_image: /images/backgrounds/71-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
 text_color: white # Optional
 link_color: # Optional
 social_link_color: white # Optional

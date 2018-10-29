@@ -8,22 +8,24 @@
         <div class="marketing">
           <div class="app-meta">
             {% if site.enable.app_icon %}
-              <img
-                class="app-icon"
-                style="min-width: 92px;"
-                height="auto"
-                {% if site.app.icon %} src="{{ site.app.icon }}"{% endif %}
-              />
+            <div class="center">
+                <img
+                  class="app-icon"
+                  style="min-width: 92px;"
+                  height="auto"
+                  {% if site.app.icon %} src="{{ site.app.icon }}"{% endif %}
+                />
+                <div class="corben app-name btnText">
+                  {{ site.app.name1 }}
+                  <span>{{ site.app.name2 }}</span>
+                </div>
+            </div>
             {% endif %}
-          </div>
-
-          <div class="corben">
-            <h1 class="app-name display-1">{{ site.app.name }}</h1>
           </div>
 
           <div class="mt-4">
             {% if site.marketing_header %}
-            <h2 class="marketing-header montserrat">{{ site.marketing_header }}</h2>
+            <div class="marketing-header montserrat">{{ site.marketing_header }}</div>
             {% endif %}
           </div>
 
