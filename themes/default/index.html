@@ -15,14 +15,19 @@
                 {% if site.app.icon %} src="{{ site.app.icon }}"{% endif %}
               />
             {% endif %}
-            <span class="app-name">{{ site.app.name }}</span>
           </div>
 
-          {% if site.marketing_header %}
-          <h2 class="marketing-header">{{ site.marketing_header }}</h2>
-          {% endif %}
+          <div class="corben">
+            <h1 class="app-name display-1">{{ site.app.name }}</h1>
+          </div>
 
-          <p class="marketing-desc">{{ site.marketing_desc }}</p>
+          <div class="mt-4">
+            {% if site.marketing_header %}
+            <h2 class="marketing-header montserrat">{{ site.marketing_header }}</h2>
+            {% endif %}
+          </div>
+
+          <p class="marketing-desc montserrat">{{ site.marketing_desc }}</p>
           <div class="download-buttons">
             <a
               class="download-btn btn btn-lg"
@@ -53,10 +58,10 @@
               </div>
 
           {% else %}
-               <img
+               <!-- <img
                 class="app-screenshot"
                 {% if site.app.screenshot %}src="{{ site.app.screenshot }}"{% endif %}
-               />
+               /> -->
           {% endif %}
         </div>
       </div>

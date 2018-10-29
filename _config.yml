@@ -12,7 +12,7 @@ app:
   ios_id: 912209541 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: # Optional - Enter Android app id like: com.example.app
 
-  icon: # Leave blank to auto-magically populate
+  icon: images/icon.svg # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -43,7 +43,7 @@ app:
 # Marketing
 #
 marketing_header: A daily drip of city events # Optional
-marketing_desc: Every day, we'll feature the top 3 upcoming events for your city.
+marketing_desc: Every day, we'll feature the top 3 upcoming events in your city.
 
 #
 # Social Links
@@ -75,7 +75,7 @@ enable:
 # * iphone-se-space-gray-vertical
 # * ipod-touch-blue-vertical
 #
-device: iphone-se-silver-vertical # REQUIRED
+device: iphone-x # REQUIRED
 
 #
 # Theme Settings
