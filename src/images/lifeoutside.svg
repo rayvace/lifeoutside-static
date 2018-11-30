@@ -1,0 +1,12 @@
+<svg width="165" height="24" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#000" d="M0 0h15v24H0z"/>
+    <path fill="#FFF" d="M1.266 5.811h12.342V22.99H1.266z"/>
+    <path fill="#FCE900" d="M1.266 1.263h12.342v3.158H1.266z"/>
+    <path fill-opacity=".3" fill="#F5A623" d="M1.203 3.347h12.342V4.61H1.203z"/>
+    <path fill-opacity=".15" fill="#D8D8D8" d="M1.266 18.126L13.544 5.874v17.115H1.266z"/>
+    <text font-family="Montserrat-ExtraBold, Montserrat" font-size="22" font-weight="600" fill="#080303" transform="translate(0 -2)">
+      <tspan x="23.583" y="21">Life Outside</tspan>
+    </text>
+  </g>
+</svg>
