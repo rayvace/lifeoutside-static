@@ -220,11 +220,11 @@ const IndexPage = () => (
                   <Spring
                     from={{
                       opacity: 0,
-                      transform: 'translateY(40px)',
+                      transform: 'translateX(560px)',
                     }}
                     to={{
                       opacity: 1,
-                      transform: 'translateY(0)'
+                      transform: 'translateX(0)'
                     }}
                     delay={1300}
                     config={key => getMockupConfig[key]}
@@ -350,16 +350,16 @@ const IndexPage = () => (
           opening up the platform to new users every week.
         </p>
       </div>
-      <div className="footer-form newsletter-form field field-grouped">
-        <div className="control control-expanded">
-          <form name="contact" netlify="true">
-            <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
-          </form>
+      <form name="contact" netlify="true">
+        <div className="footer-form newsletter-form field field-grouped">
+          <div className="control control-expanded">
+              <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
+          </div>
+          <div className="control">
+            <button className="button button-primary button-block button-shadow" type="submit">Early access</button>
+          </div>
         </div>
-        <div className="control">
-          <button className="button button-primary button-block button-shadow" type="submit">Early access</button>
-        </div>
-      </div>
+      </form>
     </div>
   </div>
 </section>
