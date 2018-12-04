@@ -52,6 +52,7 @@ class Layout extends React.Component {
             >
               <html lang="en" />
               <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans:400,700" rel="stylesheet" />
+              <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css"/>
               <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57} />
               <link rel="apple-touch-icon" sizes="60x60" href={appleIcon60} />
               <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72} />
