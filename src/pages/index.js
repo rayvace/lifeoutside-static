@@ -21,7 +21,7 @@ const IndexPage = () => (
                     Whether you&#8217;re looking for family friendly local activities or the best mountains to ski on the other side of the world,
                     you&#8217;ll find it here.
                   </p>
-                  <form name="contact-top" method="POST" action="/thanks" netlify>
+                  <form name="contact-top" method="POST" action="/thanks" data-netlify="true">
                     <div className="hero-form field field-grouped">
                       <div className="control control-expanded">
                         <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
@@ -350,7 +350,7 @@ const IndexPage = () => (
           opening up the platform to new users every week.
         </p>
       </div>
-      <form name="contact-bottom" method="POST" action="/thanks" netlify>
+      <form name="contact-bottom" method="POST" action="/thanks" data-netlify="true">
         <div className="footer-form newsletter-form field field-grouped">
           <div className="control control-expanded">
               <input className="input" type="email" name="email-bottom" placeholder="Your best email&hellip;"/>
