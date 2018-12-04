@@ -25,6 +25,7 @@ const IndexPage = () => (
                     <div className="hero-form field field-grouped">
                       <div className="control control-expanded">
                         <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
+                        <input type="hidden" name="form-name" value="contact-top" />
                       </div>
                       <div className="control">
                         <button className="button button-primary button-block" type="submit">Early access</button>
@@ -354,6 +355,7 @@ const IndexPage = () => (
         <div className="footer-form newsletter-form field field-grouped">
           <div className="control control-expanded">
               <input className="input" type="email" name="email-bottom" placeholder="Your best email&hellip;"/>
+              <input type="hidden" name="form-name" value="contact-bottom" />
           </div>
           <div className="control">
             <button className="button button-primary button-block button-shadow" type="submit">Early access</button>
